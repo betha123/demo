@@ -1,2 +1,0 @@
-# demo
-jenkins github integration
