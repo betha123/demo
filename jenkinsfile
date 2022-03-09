@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Genral') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('Bulid') {
+            steps {
+                echo 'The is build '
+            }
+        }
+    }
+}
